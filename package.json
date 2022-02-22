@@ -1,0 +1,41 @@
+{
+  "name": "nuxtapp",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint:js": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "lint:style": "stylelint **/*.{vue,css} --ignore-path .gitignore",
+    "lint": "yarn lint:js && yarn lint:style"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.12.2",
+    "@tailwindcss/forms": "^0.2.1",
+    "bootstrap": "^5.1.3",
+    "bootstrap-vue": "^2.21.2",
+    "core-js": "^3.6.5",
+    "date-fns": "^2.16.1",
+    "js-cookie": "^2.2.1",
+    "lodash": "^4.17.20",
+    "nuxt": "^2.14.6",
+    "vue-keypress": "^2.1.1"
+  },
+  "devDependencies": {
+    "@nuxtjs/dotenv": "^1.4.1",
+    "@nuxtjs/eslint-config": "^3.1.0",
+    "@nuxtjs/eslint-module": "^2.0.0",
+    "@nuxtjs/stylelint-module": "^4.0.0",
+    "@nuxtjs/tailwindcss": "^3.1.0",
+    "autoprefixer": "^10.2.5",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.10.0",
+    "eslint-plugin-nuxt": "^1.0.0",
+    "postcss": "^8.2.8",
+    "stylelint": "^13.7.2",
+    "stylelint-config-standard": "^20.0.0",
+    "tailwindcss": "^2.0.3"
+  }
+}
